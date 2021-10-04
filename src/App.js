@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Card from './componets/Card';
 
 function App() {
   return (
@@ -14,13 +15,9 @@ function App() {
       <button type="button" className="btn btn-success"
       >Success
       </button>
-      <div className="card" >
-        <img src="..." className="card-img-top" alt="..." />
-        <div className="card-body">
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
+      <Card /> 
       </div>
-    </div>
+      
   );
 }
 
